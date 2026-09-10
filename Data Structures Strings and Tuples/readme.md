@@ -2,7 +2,7 @@
 
 ## Overview
 
-This assignment , is focused on understanding and practicing fundamental Python data structures, particularly **Strings and Tuples**.
+This assignment is focused on understanding and practicing fundamental Python data structures, particularly **Strings and Tuples**.
 
 The assignment includes hands-on exercises covering **string concatenation, indexing, slicing, string manipulation methods, tuple creation, tuple concatenation, tuple repetition, indexing, and slicing**.
 
