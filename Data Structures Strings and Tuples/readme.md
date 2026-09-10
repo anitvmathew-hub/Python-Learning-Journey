@@ -44,16 +44,14 @@ The program:
 
 ### Example
 
-```python
-string1 = "Hello "
-name = input("Enter your Name: ")
-string2 = string1 + name
 
-string3 = ", welcome to Python programming"
-output_string = string2 + string3
-
+string1 = "Hello "<br>
+name = input("Enter your Name: ")<br>
+string2 = string1 + name<br>
+string3 = ", welcome to Python programming"<br>
+output_string = string2 + string3<br>
 print(output_string)
-```
+
 
 ### Concepts Practiced
 
@@ -68,9 +66,8 @@ print(output_string)
 
 The assignment uses the following string:
 
-```python
-text = "Hello Anit, welcome to Python programming"
-```
+text = "Hello Anit, welcome to Python programming"<br>
+
 
 Different indexing and slicing techniques are used to access specific parts of the string.
 
@@ -78,49 +75,37 @@ Different indexing and slicing techniques are used to access specific parts of t
 
 #### First Character
 
-```python
-print(text[0])
-```
+print(text[0])<br>
 
 Accesses the first character of the string.
 
 #### Last Character
 
-```python
-print(text[-1])
-```
+print(text[-1])<br>
 
 Uses negative indexing to access the last character.
 
 #### First Five Characters
 
-```python
-print(text[:5])
-```
+print(text[:5])<br>
 
 Extracts the first five characters using slicing.
 
 #### Last Eleven Characters
 
-```python
-print(text[-11:])
-```
+print(text[-11:])<br>
 
 Extracts the last eleven characters.
 
 #### Reverse the String
 
-```python
-print(text[::-1])
-```
+print(text[::-1])<br>
 
 Uses slicing with a step of `-1` to reverse the complete string.
 
 #### Extract the Word "Python"
 
-```python
-print(text[23:29])
-```
+print(text[23:29])<br>
 
 Uses string slicing to extract a specific word from the existing string.
 
@@ -138,9 +123,7 @@ Uses string slicing to extract a specific word from the existing string.
 
 The assignment also demonstrates several built-in Python string methods using:
 
-```python
-strM = "Python beginner tutorial"
-```
+strM = "Python beginner tutorial"<br>
 
 ## Methods Covered
 
@@ -148,70 +131,52 @@ strM = "Python beginner tutorial"
 
 Converts all characters in the string to uppercase.
 
-```python
-print(strM.upper())
-```
+print(strM.upper())<br>
 
 **Output:**
 
-```text
-PYTHON BEGINNER TUTORIAL
-```
+PYTHON BEGINNER TUTORIAL<br>
 
 ### `lower()`
 
 Converts all characters to lowercase.
 
-```python
-print(strM.lower())
-```
+print(strM.lower())<br>
 
 **Output:**
 
-```text
-python beginner tutorial
-```
+python beginner tutorial<br>
 
 
 ### `capitalize()`
 
 Converts the first character of the string to uppercase and the remaining characters to lowercase.
 
-```python
-print(strM.capitalize())
-```
+print(strM.capitalize())<br>
 
 **Output:**
 
-```text
-Python beginner tutorial
-```
+Python beginner tutorial<br>
 
 
 ### `count()`
 
-Counts the number of occurrences of a specified character.
+Counts the number of occurrences of a specified character.<br>
 
-```python
-count = strM.count('t')
-print(count)
-```
+count = strM.count('t')<br>
+print(count)<br>
 
 This exercise demonstrates how `count()` can be used to determine how frequently a particular character appears in a string.
 
 ### `replace()`
 
-Replaces one substring with another.
+Replaces one substring with another.<br>
 
-```python
-print(strM.replace("Python", "Machine Learning"))
-```
+print(strM.replace("Python", "Machine Learning"))<br>
 
 **Output:**
 
-```text
-Machine Learning beginner tutorial
-```
+Machine Learning beginner tutorial<br>
 
 This demonstrates how string replacement can be useful for modifying text programmatically.
 
@@ -222,27 +187,22 @@ The second major topic covered in this assignment is **Tuples**.
 
 Two tuples are created:
 
-```python
-t1 = (10, 20, 30)
-t2 = (40, 50, 60)
-```
+t1 = (10, 20, 30)<br>
+t2 = (40, 50, 60)<br>
+
 
 The exercises demonstrate how tuples can be combined, repeated, and accessed using indexing and slicing.
 
 ## 1. Tuple Concatenation
 
-The two tuples are combined using the `+` operator.
+The two tuples are combined using the `+` operator.<br>
 
-```python
-t_combine = t1 + t2
+t_combine = t1 + t2<br>
 print(t_combine)
-```
 
 **Output:**
 
-```text
 (10, 20, 30, 40, 50, 60)
-```
 
 ### Concept
 
@@ -250,58 +210,49 @@ Tuple concatenation combines the elements of two tuples into a new tuple.
 
 ## 2. Tuple Repetition
 
-The combined tuple is repeated three times using the `*` operator.
+The combined tuple is repeated three times using the `*` operator.<br>
 
-```python
-print(t_combine * 3)
-```
+print(t_combine * 3)<br>
 
 This demonstrates how sequence repetition works with tuples.
 
 ## 3. Accessing an Individual Tuple Element
 
-The third element is accessed using index `2`.
+The third element is accessed using index `2`.<br>
 
-```python
+
 print(t_combine[2])
-```
 
 **Output:**
 
-```text
 30
-```
+
 
 This reinforces the concept that Python indexing starts from **0**.
 
 
 ## 4. Accessing the First Three Elements
 
-Slicing is used to retrieve the first three elements.
+Slicing is used to retrieve the first three elements.<br>
 
-```python
 print(t_combine[0:3])
-```
 
 **Output:**
 
-```text
 (10, 20, 30)
-```
 
 ## 5. Accessing the Last Three Elements
 
 Negative slicing is used to retrieve the last three elements.
 
-```python
+<br>
 print(t_combine[-3:])
-```
+
 
 **Output:**
 
-```text
 (40, 50, 60)
-```
+
 
 # Key Python Concepts Learned
 
