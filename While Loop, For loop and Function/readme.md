@@ -23,7 +23,6 @@ The assignment includes three practical Python programs designed to strengthen u
 
 
 ## Objectives
-
 The main objectives of this assignment are to:
 
 * Understand how `while` and `for` loops work.
@@ -37,13 +36,11 @@ The main objectives of this assignment are to:
 
 
 ## Programs Included
-
 ### 1. Number Guessing Game
 
 A simple number guessing game implemented using a `while` loop.
 
 #### How it works:
-
 * Python randomly generates a number between **1 and 10**.
 * The user gets **3 attempts** to guess the number.
 * If the user enters a number outside the range 1–10, `continue` is used to request another guess.
@@ -51,7 +48,6 @@ A simple number guessing game implemented using a `while` loop.
 * If all attempts are used without guessing correctly, the `else` block displays a message.
 
 #### Concepts Used
-
 * `while` loop
 * `if`, `elif`, `else`
 * `break`
@@ -62,11 +58,9 @@ A simple number guessing game implemented using a `while` loop.
 
 
 ### 2. Multiplication Table Generator
-
 This program generates a multiplication table from **1 to 10** for a number entered by the user.
 
 #### How it works:
-
 The program:
 
 1. Takes a number from the user.
@@ -75,8 +69,6 @@ The program:
 4. Calculates and displays the multiplication results.
 
 #### Example
-
-
 Enter the number for which you want the multiplication table: 5
 
 5 x 1 = 5<br>
@@ -87,7 +79,6 @@ Enter the number for which you want the multiplication table: 5
 
 
 #### Concepts Used
-
 * `for` loop
 * `range()`
 * User input
@@ -96,24 +87,19 @@ Enter the number for which you want the multiplication table: 5
 
 
 ### 3. BMI Calculator
-
 This program calculates Body Mass Index (BMI) using a Python function.
 
 #### Formula Used
-
-
 BMI = weight (kg) / height (m)²
 
 
 #### How it works:
-
 * The user enters their weight in kilograms.
 * The user enters their height in meters.
 * A function called `calculate_bmi()` calculates the BMI.
 * The result is rounded to 4 decimal places.
 
 #### Concepts Used
-
 * Functions
 * Function parameters
 * `return` statement
@@ -124,7 +110,6 @@ BMI = weight (kg) / height (m)²
 
 
 ## Technologies Used
-
 * **Python 3**
 * **Jupyter Notebook**
 
@@ -147,27 +132,25 @@ BMI = weight (kg) / height (m)²
 
 
 # Problem-Solving Approach
-
 The exercises follow a simple problem-solving workflow:
 
 Problem<br>
-   ↓<br>
+&nbsp;&nbsp;&nbsp;   ↓<br>
 Understand Requirements<br>
-   ↓<br>
+&nbsp;&nbsp;&nbsp;   ↓<br>
 Identify Inputs<br>
-   ↓<br>
-&nbsp;Apply Logic<br>
-   ↓<br>
+  &nbsp; &nbsp;&nbsp;↓<br>
+Apply Logic<br>
+&nbsp; &nbsp;&nbsp;  ↓<br>
 Use Loops / Functions<br>
-   ↓<br>
+&nbsp; &nbsp;&nbsp;  ↓<br>
 Generate Output<br>
-   ↓<br>
+  &nbsp;&nbsp;&nbsp; ↓<br>
 Validate Result<br>
 
 This approach forms a foundation for writing Python programs used in **data analysis and automation workflows**.
 
 # Key Takeaways
-
 This assignment strengthened my ability to:
 
 * Translate a problem statement into Python logic
@@ -180,13 +163,4 @@ This assignment strengthened my ability to:
 These exercises helped strengthen my understanding of **Python fundamentals, control flow, loops, functions, and problem-solving**.
 
 
-
-
-
-
-
-
-
-
-⭐ *More projects coming as I continue building my data analytics portfolio.*
 
