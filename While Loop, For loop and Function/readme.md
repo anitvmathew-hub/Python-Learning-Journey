@@ -34,9 +34,9 @@ The main objectives of this assignment are to:
 * Accept and process user input.
 * Apply mathematical formulas using Python.
 
----
 
-## 📂 Programs Included
+
+## Programs Included
 
 ### 1. Number Guessing Game
 
