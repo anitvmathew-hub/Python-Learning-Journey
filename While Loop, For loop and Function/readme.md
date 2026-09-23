@@ -79,11 +79,11 @@ The program:
 
 Enter the number for which you want the multiplication table: 5
 
-5 x 1 = 5
-5 x 2 = 10
-5 x 3 = 15
-...
-5 x 10 = 50
+5 x 1 = 5<br>
+5 x 2 = 10<br>
+5 x 3 = 15<br>
+...<br>
+5 x 10 = 50<br>
 
 
 #### Concepts Used
@@ -150,19 +150,19 @@ BMI = weight (kg) / height (m)²
 
 The exercises follow a simple problem-solving workflow:
 
-Problem
-   ↓
-Understand Requirements
-   ↓
-Identify Inputs
-   ↓
-Apply Logic
-   ↓
-Use Loops / Functions
-   ↓
-Generate Output
-   ↓
-Validate Result
+Problem<br>
+   ↓<br>
+Understand Requirements<br>
+   ↓<br>
+Identify Inputs<br>
+   ↓<br>
+&nbsp;Apply Logic<br>
+   ↓<br>
+Use Loops / Functions<br>
+   ↓<br>
+Generate Output<br>
+   ↓<br>
+Validate Result<br>
 
 This approach forms a foundation for writing Python programs used in **data analysis and automation workflows**.
 
