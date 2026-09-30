@@ -65,22 +65,22 @@ The project also allows additional feedback records to be entered dynamically th
 # Data Analysis Workflow
 
 
-Raw Customer Feedback
-        ↓
-Add New Feedback
-        ↓
-Clean & Standardize Text
-        ↓
-Keyword Analysis
-        ↓
-Rating Analysis
-        ↓
-Text Analysis
-        ↓
-Unique Word Extraction
-        ↓
-Sort Feedback by Rating
-        ↓
+Raw Customer Feedback<br>
+&nbsp;&nbsp;&nbsp;↓<br>
+Add New Feedback<br>
+&nbsp;&nbsp;&nbsp;   ↓<br> 
+Clean & Standardize Text<br>
+&nbsp;&nbsp;&nbsp;   ↓<br>
+Keyword Analysis<br>
+&nbsp;&nbsp;&nbsp;   ↓<br>
+Rating Analysis<br>
+&nbsp;&nbsp;&nbsp;   ↓<br>
+Text Analysis<br>
+&nbsp;&nbsp;&nbsp;   ↓<br>
+Unique Word Extraction<br>
+&nbsp;&nbsp;&nbsp;   ↓<br>
+Sort Feedback by Rating<br>
+&nbsp;&nbsp;&nbsp;   ↓<br>
 Generate Insights
 
 
@@ -141,12 +141,7 @@ Keyword analysis can provide a quick way to identify recurring themes in unstruc
 The project calculates the overall average customer rating.
 
 
-avg_rating = round(<br>
-    sum(feedback_data['Rating']) /<br>
-    len(feedback_data['Rating']),<br>
-    2<br>
-)
-
+avg_rating = round(sum(feedback_data['Rating']) /len(feedback_data['Rating']),2)
 
 This provides a simple summary metric representing the average rating across the available feedback records.
 
@@ -162,45 +157,39 @@ The analysis identifies:
 
 This demonstrates how text data can be analyzed using basic Python string and list operations.
 
----
-
 ## 6. Unique Word Analysis
 
 A Python `set` is used to identify unique words across all customer feedback.
 
-```python
 uniquewords = set()
-```
 
 Because sets automatically remove duplicate values, the resulting collection contains only unique words.
 
 This provides an initial view of the vocabulary used in the customer feedback.
 
----
 
 ## 7. Feedback Ranking
 
 The project uses `zip()` and `sorted()` to combine customer ratings with their corresponding feedback and sort the records from highest to lowest rating.
 
-```python
+
 paired = list(
-    zip(
-        feedback_data["Rating"],
-        feedback_data["Feedback"]
-    )
-)
+&nbsp;    zip(
+&nbsp;     feedback_data["Rating"],
+&nbsp;     feedback_data["Feedback"]
+&nbsp;           )
+&nbsp;        )
 
 sorted_pairs = sorted(
     paired,
     reverse=True
 )
-```
+
 
 The resulting output makes it easier to review feedback according to customer ratings.
 
----
 
-# 📈 Analysis Areas
+# Analysis Areas
 
 | Analysis                 | Purpose                                  |
 | ------------------------ | ---------------------------------------- |
@@ -211,9 +200,8 @@ The resulting output makes it easier to review feedback according to customer ra
 | **Text Cleaning**        | Standardizes unstructured text           |
 | **Rating-Based Sorting** | Organizes feedback by rating             |
 
----
 
-# 💡 Key Skills Demonstrated
+# Key Skills Demonstrated
 
 This project demonstrates practical understanding of:
 
@@ -242,65 +230,8 @@ This project demonstrates practical understanding of:
 * Creating reusable functions
 * Structuring data for analysis
 
----
-
-# 🚀 Potential Business Applications
-
-The same approach can be extended to real-world datasets such as:
-
-* Customer satisfaction surveys
-* Product reviews
-* Restaurant reviews
-* Employee feedback surveys
-* Service-quality surveys
-* E-commerce reviews
-
-For larger datasets, the workflow could be extended using **Pandas, NumPy, and visualization libraries** to perform more scalable analysis.
-
----
-
-# 🔮 Future Enhancements
-
-Future versions of this project could include:
-
-* 📊 Pandas-based data processing
-* 📈 Rating distribution visualizations
-* ☁️ Word-frequency analysis
-* 😊 Positive/negative sentiment classification
-* 📉 Trend analysis over time
-* 📁 CSV/Excel input and output
-* 📊 Matplotlib visualizations
-* 🧹 More advanced text preprocessing
-* 📑 Automated analytical reports
-
----
-
-# 📁 Project Structure
-
-```text
-Survey-Feedback-Analyzer/
-│
-├── Survey_Feedback_Analyzer.ipynb
-│
-└── README.md
-```
-
----
-
-# 🎓 Project Learning Outcome
+# Project Learning Outcome
 
 This project provided hands-on experience in converting **raw, unstructured customer feedback into organized information using Python**.
 
 It strengthened foundational skills in **data cleaning, text processing, aggregation, sorting, and exploratory analysis**, which form an important part of a data analyst's workflow.
-
----
-
-## 👩‍💻 Author
-
-**Anit**
-
-**Aspiring Data Analyst | Python | SQL | Excel | Power BI**
-
----
-
-⭐ *This project is part of my data analytics learning portfolio and demonstrates my progression from Python fundamentals toward practical data analysis.*
