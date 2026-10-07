@@ -1,10 +1,9 @@
 # Python Data Analysis: NumPy & Pandas
 
-> **Hands-on data analysis project demonstrating Python, NumPy, and Pandas skills through numerical analysis, data exploration, filtering, aggregation, and data manipulation.**
+**Hands-on data analysis assignment demonstrating Python, NumPy, and Pandas skills through numerical analysis, data exploration, filtering, aggregation, and data manipulation.**
 
 
-
-## Project Snapshot
+## Snapshot
 
 | | |
 |---|---|
@@ -14,11 +13,10 @@
 | **Environment** | Jupyter Notebook |
 | **Focus Areas** | Data Exploration • Data Manipulation • Filtering • Aggregation |
 
----
 
-## 🎯 Business & Analytical Focus
+## Business & Analytical Focus
 
-The goal of this project was to build practical Python data-analysis skills by working with numerical and structured datasets.
+The goal of this project was to build practical Python data analysis skills by working with numerical and structured datasets.
 
 The analysis covers:
 
@@ -30,17 +28,8 @@ The analysis covers:
 - Indexing and slicing
 - Extracting insights from transaction data
 
----
 
-## 🧰 Tech Stack
-
-**Python** · **NumPy** · **Pandas** · **Jupyter Notebook**
-
----
-
-# 🔍 Analysis Performed
-
-## 01 — Numerical Data Analysis with NumPy
+## 1 — Numerical Data Analysis with NumPy
 
 A weekly temperature dataset was analyzed using NumPy arrays.
 
@@ -54,7 +43,7 @@ A weekly temperature dataset was analyzed using NumPy arrays.
 - Compared weekday/weekend temperature values
 - Worked with multi-dimensional arrays
 
-### 📈 Result
+### Result
 
 The Week 1 temperature dataset had:
 
@@ -62,11 +51,10 @@ The Week 1 temperature dataset had:
 - **Minimum:** 20.8°C
 - **Maximum:** 26.1°C
 
-This section demonstrates the ability to perform efficient numerical calculations and manipulate arrays using vectorized NumPy operations.
+This section demonstrates the ability to perform efficient numerical calculations and manipulate arrays using NumPy operations.
 
----
 
-# 02 — Student Performance Analysis with Pandas Series
+# 2 — Student Performance Analysis with Pandas Series
 
 A student ranking and marks dataset was created using a Pandas Series.
 
@@ -80,28 +68,25 @@ A student ranking and marks dataset was created using a Pandas Series.
 - Removing records
 - Converting marks into CGPA
 
-### 📌 Result
+### Result
 
 Students scoring above 90 were identified, and the highest-ranked student's score was updated from **95 to 100**, resulting in a **10.0 CGPA**.
 
 This demonstrates practical understanding of Pandas indexing, filtering, and data manipulation.
 
----
 
-# 03 — Transaction Data Analysis
+# 3 — Transaction Data Analysis
 
 A transaction dataset containing **10 records and 4 attributes** was analyzed.
 
 ### Dataset Fields
 
-```text
-TransactionID
-ProductCategory
-Region
-Amount
-```
+* TransactionID
+* ProductCategory
+* Region
+* Amount
 
-### 🔎 Exploratory Analysis
+### Exploratory Analysis
 
 The dataset was analyzed to identify:
 
@@ -112,7 +97,7 @@ The dataset was analyzed to identify:
 - Transactions meeting specific business conditions
 - Average transaction amount by region
 
-### 📊 Key Findings
+### Key Findings
 
 **Product Category Distribution**
 
@@ -131,15 +116,14 @@ The dataset was analyzed to identify:
 | South | 250.00 |
 | West | 190.00 |
 
-### 💡 Analytical Insight
+### Analytical Insight
 
 The **East region recorded the highest average transaction amount ($375)**, while the **West region had the lowest ($190)**.
 
 Electronics was the most frequently occurring product category in the dataset.
 
----
 
-# 🛠️ Data Manipulation
+# Data Manipulation
 
 The project also demonstrates practical data transformation techniques.
 
@@ -152,15 +136,12 @@ The project also demonstrates practical data transformation techniques.
 
 For example:
 
-```python
-transactions['Discount'] = transactions['Amount'] * 0.10
-```
+transactions['Discount'] = transactions['Amount'] * 0.10<br>
 
 This demonstrates how Python can be used to create derived business metrics directly within a dataset.
 
----
 
-# 🧠 Skills Demonstrated
+# Skills Demonstrated
 
 ### Python
 
@@ -195,31 +176,3 @@ This demonstrates how Python can be used to create derived business metrics dire
 - Row filtering
 - Data modification
 
----
-
-# 📌 Recruiter Takeaway
-
-This project demonstrates my ability to use **Python for practical data analysis**, moving from raw numerical and transactional data to structured analysis and measurable insights.
-
-It provides a foundation for more advanced Data Analyst work involving:
-
-**Data Cleaning → Exploratory Data Analysis → Statistical Analysis → Data Visualization → Business Insights**
-
----
-
-## 📂 Repository Contents
-
-```text
-📁 Python-Data-Analysis
-│
-├── 📓 python_DA_1.ipynb
-└── 📄 README.md
-```
-
----
-
-## 👩‍💻 Project Focus
-
-**Aspiring Data Analyst | Python | Pandas | NumPy | Data Cleaning | Data Analysis | Business Insights**
-
-> Turning data into meaningful information through structured analysis and practical problem-solving.
