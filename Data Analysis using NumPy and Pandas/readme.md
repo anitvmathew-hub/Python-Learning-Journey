@@ -1,10 +1,10 @@
-# 📊 Python Data Analysis: NumPy & Pandas
+# Python Data Analysis: NumPy & Pandas
 
 > **Hands-on data analysis project demonstrating Python, NumPy, and Pandas skills through numerical analysis, data exploration, filtering, aggregation, and data manipulation.**
 
----
 
-## 🚀 Project Snapshot
+
+## Project Snapshot
 
 | | |
 |---|---|
