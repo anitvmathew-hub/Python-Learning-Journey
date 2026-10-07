@@ -3,7 +3,7 @@
 **Hands-on data analysis assignment demonstrating Python, NumPy, and Pandas skills through numerical analysis, data exploration, filtering, aggregation, and data manipulation.**
 
 
-## Snapshot
+## Tools & Technologies
 
 | | |
 |---|---|
