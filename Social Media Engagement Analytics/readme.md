@@ -50,40 +50,40 @@ Through data cleaning, exploratory data analysis (EDA), statistical aggregation,
 ## Key Findings & Business Implications
 
 ### 1. Content Strategy
-- Image posts recorded the highest median engagement rate at approximately **26.4%**.
-- Education was the leading content category, with a median engagement rate of approximately **27.8%**.
 
+- Image posts achieved the highest median engagement rate at approximately **26.4%**, followed by text posts at **25.5%**.
+- Travel posts are the best performing content category.
+- Brazil has the highest avg engagement rate.
+- 
 **Business implication:** Prioritize testing image-based educational content and compare its performance with other formats and categories.
 
-### 2. Geographic and Audience Insights
-- The UAE recorded the highest median engagement rate among the countries analyzed, at approximately **27.3%**.
+### 2. Audience Insights
 - Users under 18 recorded the highest median engagement rate, approximately **27.45%**, closely followed by users aged 18–24.
 - Non-verified accounts recorded a higher median engagement rate (**25.6%**) than verified accounts (**23.7%**).
 
 **Business implication:** Explore localized content strategies and audience-specific campaigns. Evaluate verification status alongside other factors instead of assuming it directly drives engagement.
 
 ### 3. Device Behavior
-- Mobile users recorded the highest average watch time, at approximately **4,088 seconds**, compared with desktop and tablet users.
+- Mobile users recorded the highest average watch time, at approximately **68 minutes**, compared with desktop and tablet users.
 
 **Business implication:** Test mobile-friendly content presentation, readability, and visual formats to support audience retention.
 
 ### 4. Sentiment and Engagement
 - Positive posts achieved the highest average engagement score (**25.61**), followed by negative (**25.43**) and neutral posts (**25.32**).
 - Negative posts generated the highest average impressions among posts with known sentiment, at approximately **50,192**.
-
+- Posts with unknown sentiment had the lowest average engagement score **(22.68)**, despite recording the highest average likes and impressions.
+- 
 **Business implication:** Investigate how content sentiment relates to engagement and reach. Higher impressions should not automatically be interpreted as positive audience response.
 
 ## Strategic Recommendations
 
 Based on the analysis, the following opportunities merit further testing:
-
-- **Content optimization:** Experiment with image-based and educational posts.
-- **Audience segmentation:** Tailor content experiments to different age groups and geographic markets.
-- **Mobile experience:** Evaluate content formats that encourage longer viewing on mobile devices.
-- **Engagement quality:** Consider likes, comments, watch time, impressions, and engagement score together rather than relying on a single metric.
-- **Data-driven scheduling:** Capture accurate posting timestamps to identify effective publishing windows.
-- **Measurement improvement:** Validate engagement metrics and investigate extreme values before using results to guide business decisions.
-
+- Prioritize testing image-based and educational content to improve engagement.
+- Explore audience-specific strategies for younger users and high-performing geographic markets.
+- Optimize content for mobile viewing and investigate device-level watch-time differences.
+- Use positive content to encourage engagement while examining why negative posts attract impressions.
+- Improve timestamp data collection to identify optimal posting times.
+- 
 ## Skills Demonstrated
 
 - Data cleaning and preprocessing
