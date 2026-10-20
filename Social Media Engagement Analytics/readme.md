@@ -54,7 +54,7 @@ Through data cleaning, exploratory data analysis (EDA), statistical aggregation,
 - Image posts achieved the highest median engagement rate at approximately **26.4%**, followed by text posts at **25.5%**.
 - Travel posts are the best performing content category.
 - Brazil has the highest avg engagement rate.
-- 
+  
 **Business implication:** Prioritize testing image-based educational content and compare its performance with other formats and categories.
 
 ### 2. Audience Insights
