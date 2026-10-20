@@ -72,7 +72,7 @@ Through data cleaning, exploratory data analysis (EDA), statistical aggregation,
 - Positive posts achieved the highest average engagement score (**25.61**), followed by negative (**25.43**) and neutral posts (**25.32**).
 - Negative posts generated the highest average impressions among posts with known sentiment, at approximately **50,192**.
 - Posts with unknown sentiment had the lowest average engagement score **(22.68)**, despite recording the highest average likes and impressions.
-- 
+  
 **Business implication:** Investigate how content sentiment relates to engagement and reach. Higher impressions should not automatically be interpreted as positive audience response.
 
 ## Strategic Recommendations
@@ -83,7 +83,7 @@ Based on the analysis, the following opportunities merit further testing:
 - Optimize content for mobile viewing and investigate device-level watch-time differences.
 - Use positive content to encourage engagement while examining why negative posts attract impressions.
 - Improve timestamp data collection to identify optimal posting times.
-- 
+  
 ## Skills Demonstrated
 
 - Data cleaning and preprocessing
